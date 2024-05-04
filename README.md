@@ -107,4 +107,8 @@ Screenshot of the Output
 
 ![ACTIVITY 6](https://github.com/mariachrislenereis/Bayesian-Statistics-Activity-3/assets/168893458/bbb57bde-13ce-4cd9-93e2-eb87764c7a26)
 
+References:
+Patil, M. (2023, November 21). #7 | Bayesian Inference | 7-Days of Statistics for Data Science. Medium. https://medium.com/@madhuri15/7-bayesian-inference-7-days-of-statistics-for-data-science-3c45280277d
+
+Uniform distribution: a powerful tool for data modeling - FasterCapital. (2024, March 4). FasterCapital. https://fastercapital.com/content/Uniform-Distribution--A-Powerful-Tool-for-Data-Modeling.html#What-is-Uniform-Distribution-and-Why-is-it-Useful-
 
