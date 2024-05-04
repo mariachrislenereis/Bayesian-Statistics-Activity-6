@@ -4,6 +4,7 @@ Activity 6: Research about Probability Distributions in Bayesian Inference
 ## Probability Distributions in Bayesian Inference
 
 Prior Probability Distribution
+
 A prior probability distribution indicates the initial beliefs, assumptions, or knowledge about an event or parameter that exists prior to the observation of data. It frequently takes from knowledge, historical data, or previous experiments.
 
 Likelihood Probability
