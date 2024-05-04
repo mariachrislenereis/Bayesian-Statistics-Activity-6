@@ -76,7 +76,7 @@ Uniform distribution is beneficial for testing hypotheses. Since it allows us to
 
 In Bayesian Inference, uniform distributions can be utilized as prior distributions. As when there is little or no information on the parameter of interest or when the parameter is completely unknown or uncertain. Furthermore, we apply Baye's theorem to update our assumptions about the parameter based on observed evidence. The uniform prior distribution serves as an initial guide for the updating procedure and the likelihood function integrates the information in the data.
 
-Example of Uniform Distribution in Bayesian Inference:
+**Example of Uniform Distribution in Bayesian Inference:**
 
 Let's say we have a coin and we wish to calculate the likelihood, p, that when we flip it, we will get heads. We flip the coin n times and see k heads. In which our objective is to use this data to infer the value of p.
 
@@ -99,39 +99,30 @@ This is proportional to the beta distribution with parameters k + 1 and n - k + 
 
 ## Sample Python Code:
 
+```python
 import numpy as np 
-
 import matplotlib.pyplot as plt
-
 from scipy.stats import beta
 
-Number of flips and heads observed
-
+# Number of flips and heads observed
 n = 20
-
 k = 15
 
-Parameters for the beta distribution (posterior)
-
+# Parameters for the beta distribution (posterior)
 alpha = k + 1
-
 beta_ = n - k + 1
 
-Generate samples from the posterior
-
+# Generate samples from the posterior
 samples = np.random.beta(alpha, beta_, size=10000)
 
-Plot the posterior distribution
-
+# Plot the posterior distribution
 plt.hist(samples, bins=30, density=True, alpha=0.6, color='g', edgecolor='b')
-
 plt.title('Posterior Distribution of $p$')
-
 plt.xlabel('$p$')
-
 plt.ylabel('Density')
-
 plt.show()
+```
+
 
 ## Screenshot of the Output
 
