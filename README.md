@@ -27,7 +27,7 @@ Joint Probability Distribution
 
 It refers to the probability of two events, such as event A and event B occurring. Also, it is the likelihood of the intersection of two or more events.
 
-- These distributions are used through the conditional probability:
+These distributions are used through the conditional probability:
 
 P(A|B) =  (P(B|A) * P(A) )/(P(B))
 
@@ -41,7 +41,7 @@ P(A) - The prior probability implies the initial belief in event A prior to cons
 
 P(B) - The marginal probability in which the probability of the evidence B.
 
-- Example:
+Example:
 
 You want to walk outside but are not sure if it will rain. Then, you check the weather forecast and find the odds of rain in one month are 45%.
 
@@ -76,7 +76,7 @@ Uniform distribution is beneficial for testing hypotheses. Since it allows us to
 
 In Bayesian Inference, uniform distributions can be utilized as prior distributions. As when there is little or no information on the parameter of interest or when the parameter is completely unknown or uncertain. Furthermore, we apply Baye's theorem to update our assumptions about the parameter based on observed evidence. The uniform prior distribution serves as an initial guide for the updating procedure and the likelihood function integrates the information in the data.
 
-- Example of Uniform Distribution in Bayesian Inference:
+Example of Uniform Distribution in Bayesian Inference:
 
 Let's say we have a coin and we wish to calculate the likelihood, p, that when we flip it, we will get heads. We flip the coin n times and see k heads. In which our objective is to use this data to infer the value of p.
 
@@ -121,11 +121,11 @@ plt.xlabel('$p$')
 plt.ylabel('Density')
 plt.show()
 
-- Screenshot of the Output
+## Screenshot of the Output
 
 ![ACTIVITY 6](https://github.com/mariachrislenereis/Bayesian-Statistics-Activity-3/assets/168893458/bbb57bde-13ce-4cd9-93e2-eb87764c7a26)
 
-References:
+## References
 
 Patil, M. (2023, November 21). #7 | Bayesian Inference | 7-Days of Statistics for Data Science. Medium. https://medium.com/@madhuri15/7-bayesian-inference-7-days-of-statistics-for-data-science-3c45280277d
 
