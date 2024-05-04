@@ -3,27 +3,27 @@ Activity 6: Research about Probability Distributions in Bayesian Inference
 
 ## Probability Distributions in Bayesian Inference
 
-Prior Probability Distribution
+**Prior Probability Distribution**
 
 A prior probability distribution indicates the initial beliefs, assumptions, or knowledge about an event or parameter that exists prior to the observation of data. It frequently takes from knowledge, historical data, or previous experiments.
 
-Likelihood Probability
+**Likelihood Probability**
 
 The likelihood involves the actual data and assesses the level of probability that the observed data or evidence will hold under various hypotheses or parameter values. It assesses how effectively the model deals with the observed data.
 
-Posterior Probability Distribution
+**Posterior Probability Distribution**
 
 The posterior distribution is the parameter distribution determined by considering the data that was observed. Furthermore, when additional or new evidence becomes available, conditional probability is utilized to update the prior distribution of the event. 
 
-Conditional Probability Distribution
+**Conditional Probability Distribution**
 
 In Bayes Inference, a conditional probability distribution is used to determine the likelihood of an event A occurring given that event B occurs.
 
-Marginal Probability Distribution
+**Marginal Probability Distribution**
 
 It refers to the likelihood of the evidence being present, whether the hypothesis is true or not.
 
-Joint Probability Distribution
+**Joint Probability Distribution**
 
 It refers to the probability of two events, such as event A and event B occurring. Also, it is the likelihood of the intersection of two or more events.
 
@@ -41,7 +41,7 @@ P(A) - The prior probability implies the initial belief in event A prior to cons
 
 P(B) - The marginal probability in which the probability of the evidence B.
 
-Example:
+**Example:**
 
 You want to walk outside but are not sure if it will rain. Then, you check the weather forecast and find the odds of rain in one month are 45%.
 
@@ -97,7 +97,7 @@ Posterior(p ┤|  k,n ) ∝  p^k (1-p)^(n-k)
 This is proportional to the beta distribution with parameters k + 1 and n - k + 1. Thus, the posterior distribution for p based on the observed data is a beta distribution.
 
 
-## Sample Python Code:
+## Sample Python Code
 
 ```python
 import numpy as np 
