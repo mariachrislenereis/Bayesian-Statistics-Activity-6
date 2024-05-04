@@ -39,6 +39,7 @@ P(A) - The prior probability implies the initial belief in event A prior to cons
 P(B) - The marginal probability in which the probability of the evidence B.
 
 Example:
+
 You want to walk outside but are not sure if it will rain. Then, you check the weather forecast and find the odds of rain in one month are 45%.
 
 Additionally, suppose that 30% of days start sunny in the area. Moreover, 40% of rain starts on sunny days. What are the probabilities of rain if the morning is sunny?
