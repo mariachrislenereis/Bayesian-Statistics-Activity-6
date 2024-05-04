@@ -8,23 +8,31 @@ Prior Probability Distribution
 A prior probability distribution indicates the initial beliefs, assumptions, or knowledge about an event or parameter that exists prior to the observation of data. It frequently takes from knowledge, historical data, or previous experiments.
 
 Likelihood Probability
+
 The likelihood involves the actual data and assesses the level of probability that the observed data or evidence will hold under various hypotheses or parameter values. It assesses how effectively the model deals with the observed data.
 
 Posterior Probability Distribution
+
 The posterior distribution is the parameter distribution determined by considering the data that was observed. Furthermore, when additional or new evidence becomes available, conditional probability is utilized to update the prior distribution of the event. 
 
 Conditional Probability Distribution
+
 In Bayes Inference, a conditional probability distribution is used to determine the likelihood of an event A occurring given that event B occurs.
 
 Marginal Probability Distribution
+
 It refers to the likelihood of the evidence being present, whether the hypothesis is true or not.
 
 Joint Probability Distribution
+
 It refers to the probability of two events, such as event A and event B occurring. Also, it is the likelihood of the intersection of two or more events.
 
 These distributions are used through the conditional probability:
+
 P(A|B) =  (P(B|A) * P(A) )/(P(B))
+
 Where:
+
 P(A|B) - The posterior probability represents the likelihood of event A occurring given event B happened.
 P(B|A) - The likelihood indicates the probability of seeing evidence B assuming that event A is true.
 P(A) - The prior probability implies the initial belief in event A prior to considering the evidence.
