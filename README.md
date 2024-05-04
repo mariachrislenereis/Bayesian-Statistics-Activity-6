@@ -34,8 +34,11 @@ P(A|B) =  (P(B|A) * P(A) )/(P(B))
 Where:
 
 P(A|B) - The posterior probability represents the likelihood of event A occurring given event B happened.
+
 P(B|A) - The likelihood indicates the probability of seeing evidence B assuming that event A is true.
+
 P(A) - The prior probability implies the initial belief in event A prior to considering the evidence.
+
 P(B) - The marginal probability in which the probability of the evidence B.
 
 Example:
@@ -45,21 +48,26 @@ You want to walk outside but are not sure if it will rain. Then, you check the w
 Additionally, suppose that 30% of days start sunny in the area. Moreover, 40% of rain starts on sunny days. What are the probabilities of rain if the morning is sunny?
 
 A = Sunny
+
 B = Rain
 
 P(A) = 0.3 (Probability of Sunny)
+
 P(B) = 0.4 (Probability of Rain)
 
 P(B|A) = 0.45 (Probability of rain occurring given sunny mornings)
 
 P(A|B) = Probability of sunny mornings given its rain
+
 P(A|B) = ?
 
 P(A|B) = (0.45*0.3) / 0.4
+
 P(A|B) = 0.34
 
 
 Uniform Distribution
+
 The uniform distribution is among the most common and frequently applied probability distributions. It is a simple method of modeling scenarios in which every possible result is equally likely, such as when a fair die is rolled, a random card is chosen from a deck, or a random number is chosen from an interval.  
 
 The PDF or probability density function of a uniform distribution refers to the function that provides the likelihood of seeing a particular value or range of values. It is constant and equal to 1 / (upper bound - lower bound) for any number within the interval and otherwise, zero. This indicates that there is an equal probability of occurrence for each value in the interval.
@@ -118,6 +126,7 @@ Screenshot of the Output
 ![ACTIVITY 6](https://github.com/mariachrislenereis/Bayesian-Statistics-Activity-3/assets/168893458/bbb57bde-13ce-4cd9-93e2-eb87764c7a26)
 
 References:
+
 Patil, M. (2023, November 21). #7 | Bayesian Inference | 7-Days of Statistics for Data Science. Medium. https://medium.com/@madhuri15/7-bayesian-inference-7-days-of-statistics-for-data-science-3c45280277d
 
 Uniform distribution: a powerful tool for data modeling - FasterCapital. (2024, March 4). FasterCapital. https://fastercapital.com/content/Uniform-Distribution--A-Powerful-Tool-for-Data-Modeling.html#What-is-Uniform-Distribution-and-Why-is-it-Useful-
