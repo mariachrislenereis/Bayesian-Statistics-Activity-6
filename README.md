@@ -134,3 +134,6 @@ Patil, M. (2023, November 21). #7 | Bayesian Inference | 7-Days of Statistics fo
 
 Uniform distribution: a powerful tool for data modeling - FasterCapital. (2024, March 4). FasterCapital. https://fastercapital.com/content/Uniform-Distribution--A-Powerful-Tool-for-Data-Modeling.html#What-is-Uniform-Distribution-and-Why-is-it-Useful-
 
+## Note
+
+For educational purposes.
